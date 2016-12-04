@@ -1,0 +1,38 @@
+#two_nav #bs-example-navbar-collapse-1 ul li {
+  color: #0074D9;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 50px;
+}
+#main {
+  margin-top: 24px;
+  margin-left: 124px;
+}
+#main .box2 {
+  width: 480px;
+  margin: 10px auto;
+}
+#main .box2 .box3 {
+  margin: 10px 20px;
+}
+#main .box2 .box3 .box-left {
+  padding-left: 10px;
+  padding-right: 24px;
+}
+#main .box2 .box3 .box-left1 {
+  padding-left: -6px;
+  padding-right: 20px;
+}
+#main .box2 .box3 .btn-left {
+  margin-left: 82px;
+  margin-right: 40px;
+}
+#main .box2 .box3 .xieyi {
+  display: block;
+  margin-top: 16px;
+  margin-left: 82px;
+}
+#main .box2 .box3 h5 {
+  margin-left: 80px;
+  color: #a09696;
+}

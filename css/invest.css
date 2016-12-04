@@ -1,0 +1,14 @@
+#username a {
+  color: #0074D9;
+  font-weight: bold;
+}
+#top .title {
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+#middle {
+  margin-bottom: 25px;
+}
+#middle span {
+  margin-right: 30px;
+}

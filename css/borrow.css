@@ -1,0 +1,49 @@
+#username a {
+  color: #0074D9;
+  font-weight: bold;
+}
+#main {
+  margin-top: 35px;
+}
+#main #xingyongdai .panel-color {
+  background-color: #40D47E;
+}
+#main #cheyidai .panel-color {
+  background-color: #EC7E20;
+}
+#main #fangyidai .panel-color {
+  background-color: #2CA2EE;
+}
+#main #xingyongdai,
+#main #cheyidai,
+#main #fangyidai {
+  margin-left: 30px;
+  margin-right: -32px;
+}
+#main #xingyongdai .panel-color .panel-top,
+#main #cheyidai .panel-color .panel-top,
+#main #fangyidai .panel-color .panel-top {
+  color: #fff;
+  font-size: 24px;
+}
+#main #xingyongdai .panel-color .panel-top p,
+#main #cheyidai .panel-color .panel-top p,
+#main #fangyidai .panel-color .panel-top p {
+  font-size: 14px;
+}
+#main ul li {
+  list-style: none;
+  color: #555;
+  font-size: 14px;
+  margin-left: -26px;
+  padding-left: 22px;
+  margin-top: 5px;
+  background: url(../img/sequare.png) left center no-repeat;
+}
+#main .btn-apply {
+  margin-left: 38%;
+  margin-top: 10px;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 12px;
+}

@@ -1,0 +1,40 @@
+#username a {
+  color: #0074D9;
+  font-weight: bold;
+}
+#main {
+  margin-top: 10px;
+}
+#left .menu .bg-color {
+  background-color: #F5F5F5;
+  color: #007AFF;
+}
+#left .menu ul {
+  margin-bottom: 0px;
+  border: 1px solid #e2d9d9;
+  border-bottom: 0px;
+}
+#left .menu ul li {
+  height: 40px;
+  line-height: 40px;
+  margin-left: -40px;
+  padding-left: 40px;
+}
+#left .menu ul .active {
+  background-color: #337ab7;
+}
+#left .menu ul .active a {
+  display: block;
+  color: #fff;
+}
+#left #sub {
+  background-color: #fff;
+}
+#right .biaodan {
+  width: 55%;
+  margin: 10px auto;
+}
+#right .tips {
+  color: #a94442;
+  margin-bottom: 40px;
+}

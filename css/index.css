@@ -1,0 +1,38 @@
+#box3 {
+  margin-left: 40px;
+  margin-top: 20px;
+}
+#box3 ul li {
+  list-style: none;
+}
+#box3 ul li h4 {
+  font-weight: bold;
+}
+#box3 ul li .left {
+  float: left;
+}
+#box4 {
+  margin-top: 20px;
+}
+#box4 #ff span {
+  font-size: 22px;
+  font-weight: bold;
+  color: #0074D9;
+  padding-bottom: 12px;
+  padding-left: 1px;
+  margin-left: -15px;
+  border-bottom: 2px solid #0074D9;
+}
+#box4 #ff a {
+  line-height: 30px;
+}
+#box5 li:nth-child(1) {
+  margin-left: -31px;
+  margin-right: 31px;
+}
+#box5 li:nth-child(2) {
+  padding-right: -1px;
+}
+#box5 li table tr td span {
+  float: right;
+}
