@@ -34,12 +34,10 @@
   width: 60%;
   margin: 10px auto;
 }
-#right #biaodan #cur_username {
+#right #biaodan #cur_username,
+#right #biaodan #true_username,
+#right #biaodan #id-number {
   margin-top: 6px;
-}
-#right #biaodan .tips {
-  color: #a94442;
-  margin-bottom: 40px;
 }
 #right #biaodan .id-pic #tip1 {
   font-weight: bold;

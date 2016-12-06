@@ -2,10 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>实名认证</title>
+    <title>借款项目</title>
     <link rel='stylesheet' href='bootstrap-3.3.2-dist/css/bootstrap.min.css' />
     <link rel='stylesheet'  href='css/common.css'/>
-    <link rel='stylesheet'  href='css/realAuth.css'/>
+    <link rel='stylesheet'  href='css/recharge_list.css'/>
 </head>
 <body>
 <!--网页结构搭建-->
@@ -67,20 +67,20 @@
 			  	<a href="#" class="list-group-item bg-color">投资项目</a>
 			  	<a href="#" class="list-group-item bg-color">借款项目</a>
 			  	<ul>
-					<li><a href="###"><span>借款项目</span></a></li>
+					<li ><a href="###"><span>借款项目</span></a></li>
 					<li><a href="###"><span>还款明细</span></a></li>
 				</ul>
 			  	<a href="#" class="list-group-item bg-color">我的账户</a>
 			  	<a href="#" class="list-group-item bg-color"> 账户信息 </a>
 			  	<ul>
-					<li class="active"><a href="###" ><span>实名认证</span></a></li>
+					<li ><a href="###" ><span>实名认证</span></a></li>
 					<li><a href="###"><span>银行卡管理</span></a></li>
 					<li><a href="###"><span>登记记录</span></a></li>
 				</ul>
 			  	<a href="#" class="list-group-item bg-color">资产详情</a>
 			  	<ul>
 					<li><a href="###"><span>账户流水</span></a></li>
-					<li><a href="###"><span>充值明细</span></a></li>
+					<li class="active"><a href="###"><span>充值明细</span></a></li>
 					<li><a href="###"><span>提现记录</span></a></li>
 					<li><a href="###"><span>收款明细</span></a></li>
 				</ul>
@@ -95,112 +95,29 @@
 		<div class='col-md-9' id='right'>
 			
 			<div class="panel panel-default">
-			  <div class="panel-heading">
-			    <h3 class="panel-title">实名认证</h3>
+			  <div class="panel-heading head_title">
+			    <span class="panel-title">充值明细</span>
+			    <button type="button" class="btn btn-danger pull-right" style='margin-top:-5px;'>账户充值</button>
 			  </div>
 			  
-			  <div class="panel-body " id='biaodan'>
-			   	<p class='tips'>为保护您账户安全，实名认证成功之后不能修改信息，请认真填写！</p>
-			    <form class="form-horizontal">
-			    	
-			    	<!--用户名-->
-				  	<div class="form-group ">
-					    <label for="inputEmail3" class="col-sm-3 control-label">用户名</label>
-					    <div class="col-sm-6">
-					      <!--<input type="text" class="form-control" id="inputEmail3"  value='小强' disabled="disabled">-->
-					    	<p id='cur_username'>小强</p>
-					    </div>
-					    <div class='col-sm-3'></div>
-				  	</div>
-				  	
-				  	<!--姓名-->
-				  	<div class="form-group">
-					    <label for="inputPassword3" class="col-sm-3 control-label">姓名</label>
-					    <div class="col-sm-6">
-					      <input type="text" class="form-control" id="inputPassword3">
-					    </div>
-					    <div class='col-sm-3'></div>
-				  	</div>
-				  	
-				  	<!--性别的选择-->
-				  	<div class="form-group">
-					    <label for="inputPassword3" class="col-sm-3 control-label">性别</label>
-					    <div class="col-sm-6">
-					    	<select class="form-control">
-							  	<option>男</option>
-							  	<option>女</option>
-							</select>
-					    </div>
-					    <div class='col-sm-3'></div>
-				  	</div>
-				  	
-				  	
-				  	<!--证件类型的选择-->
-				  	<div class="form-group">
-					    <label for="inputPassword3" class="col-sm-3 control-label">证件类型</label>
-					    <div class="col-sm-6">
-					    	<select class="form-control">
-							  	<option>身份证</option>
-							  	<option>驾驶证</option>
-							  	<option>军官证</option>
-							</select>
-					    </div>
-					    <div class='col-sm-3'></div>
-				  	</div>
-				  	
-				  	<!--证件号码-->
-				  	<div class="form-group">
-					    <label for="inputPassword3" class="col-sm-3 control-label">证件号码</label>
-					    <div class="col-sm-6">
-					      <input type="text" class="form-control" id="inputPassword3">
-					    </div>
-					    <div class='col-sm-3'></div>
-				  	</div>
-				  	
-				  	<!--出生日期-->
-				  	<div class="form-group">
-					    <label for="inputPassword3" class="col-sm-3 control-label">出生日期</label>
-					    <div class="col-sm-6">
-					      <input type="text" class="form-control" id="inputPassword3">
-					    </div>
-					    <div class='col-sm-3'></div>
-				  	</div>
-				  	
-				  	<!--证件地址-->
-				  	<div class="form-group">
-					    <label for="inputPassword3" class="col-sm-3 control-label">证件地址</label>
-					    <div class="col-sm-8">
-					      <input type="text" class="form-control" id="inputPassword3">
-					    </div>
-				  	</div>
-				  	
-				  	
-				  	<!--身份证照片-->
-				  	<div class="form-group id-pic">
-					    <label for="inputPassword3" class="col-sm-3 control-label">身份证照片</label>
-					    <div class="col-sm-9">
-					    	<p class='text-primary' id='tip1'>请点击“选择图片”,选择证件的正反两面照片。</p>
-					    	<div class='pic'>
-					    		<div class='picbox'>
-						    		<p>上传正面</p>
-						    		<img src='' />
-						    	</div>
-						    	<div class='picbox'>
-						    		<p>上传反面</p>
-						    		<img src='' />
-						    	</div>
-					    	</div>
-					    </div>
-				  	</div>
-				  	
-				  	
-				  	
-				  	<div class="form-group">
-				    	<div class="col-sm-offset-4 col-sm-10">
-				      		<button type="submit" class="btn btn-primary">提交认证</button>
-				    	</div>
-				  	</div>
-				</form>	
+			  <div class="panel-body " id='info'>
+			   	<table class="table" >
+					<thead>
+						<th>充值时间</th>
+						<th>充值金额</th>
+						<th>充值状态</th>
+						<th>备注</th>
+					</thead>
+					
+					<tr class='active'>
+						<td>2015-03-11 10:45:10</td>
+						<td>500.00</td>
+						<td>充值成功</td>
+						<td>线下充值500</td>
+					</tr>
+				</table>
+			   	
+			   	
 			  </div>
 			</div>
 		</div>

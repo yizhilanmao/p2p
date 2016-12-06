@@ -1,0 +1,35 @@
+#top {
+  height: 128px;
+  background-color: #F4F8FA;
+  border-left: 2px solid #0099DD;
+}
+#top h3 {
+  font-weight: bold;
+  margin-top: 40px;
+  color: #09d;
+}
+#section2 {
+  position: relative;
+}
+#section2 .title #btn_biao {
+  position: absolute;
+  top: 18px;
+  left: 234px;
+  color: #fff;
+  font-weight: bold;
+}
+#xingyongbiao {
+  width: 90%;
+  margin-left: 5%;
+  position: relative;
+}
+#xingyongbiao #rightbox {
+  position: absolute;
+  top: 26px;
+  left: 754px;
+  width: 300px;
+  height: 174px;
+  padding-left: 24px;
+  padding-top: 25px;
+  box-shadow: 1px 1px 22px #ddd;
+}
